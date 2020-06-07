@@ -6,21 +6,16 @@ body {
     color: $primary-color;
 }
 
-navbar {
-    overflow: hidden;
-    background-color: rgba(60, 80, 93, 0.2);
 
-   a {
-    float: left;
-    display: block;
-    color: gray;
-    text-align: center;
-    padding: 10px 20px;
-    text-decoration: none;
-    }
-
-   a:hover {
-    background-color: rgb(60, 80, 93);
+.header {
+        text-align: right;
+        color: gray;
+    h1 {padding-top: 40px;}
+    
+}
+div row2 {
+    font-size: 18px;
+        h2, p {
     color: white;
-    }
+   }
 }
