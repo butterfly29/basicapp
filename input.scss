@@ -1,2 +1,26 @@
-﻿body {
+﻿$font-stack: Helvetica, sans-serif;
+$primary-color: rgb(60, 80, 93);
+
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+}
+
+navbar {
+    overflow: hidden;
+    background-color: rgba(60, 80, 93, 0.2);
+
+   a {
+    float: left;
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    }
+
+   a:hover {
+    background-color: rgb(60, 80, 93);
+    color: white;
+    }
 }

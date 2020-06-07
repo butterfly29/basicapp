@@ -1,3 +1,55 @@
 
 
 /*# sourceMappingURL=main.css.map */
+
+body {
+    background-image: url("image4.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1, p {
+    color: gray;
+}
+
+#content {
+    max-width: 80%;
+    margin: auto;
+}
+
+.header {
+    text-align: right;
+    color: gray;
+}
+
+    .header h1 {
+        padding-top: 40px;
+    }
+
+.sticky {
+    position: fixed;
+    top: 0;
+}
+
+    .sticky + .content {
+        padding-top: 60px;
+    }
+
+.navbar-xs a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.row {
+    background-color: white;
+    padding: 30px 20px 30px 20px;
+    margin-top: 10px;
+}
+
+.row2 {
+    background-color: rgb(60, 80, 93);
+    margin: 10px 0px 0px 0px;
+    padding: 30px 20px 30px 20px;
+}
