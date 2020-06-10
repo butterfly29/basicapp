@@ -1,2 +1,24 @@
-﻿body {
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #3c505d;
 }
+
+.header {
+  text-align: right;
+  color: gray;
+}
+.header h1 {
+  padding-top: 40px;
+}
+
+.row2 {
+  font-size: 20px;
+}
+.row2 h2 {
+  color: white;
+}
+.row2 p {
+  color: white;
+}
+
+/*# sourceMappingURL=output.css.map */

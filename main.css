@@ -14,15 +14,6 @@ h1, p {
     margin: auto;
 }
 
-.header {
-    text-align: right;
-    color: gray;
-}
-
-    .header h1 {
-        padding-top: 40px;
-    }
-
 .navbar {
     overflow: hidden;
     background-color: rgba(60, 80, 93, 0.2);
