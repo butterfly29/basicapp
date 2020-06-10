@@ -3,28 +3,34 @@
 Web Programming with Python and JavaScript
 
 I have created a web app where i can showcase my skills and future projects.
+
+All the pages have a responsive design for smller screens (xs size)                
+
 Files:
 
 index.html
 
-The landing page, it contains: metadata, linking of different files:stylesheet, javascript, jQuery, bootstrap. 
+The landing page, it contains: 
+metadata,
+Linking of different files:stylesheet, javascript, jQuery, bootstrap. 
 Header 
 Navigation bar (includes the links to the other pages)
 Second Navigation bar for smaller screens(xs size) 
-2 rows: First row some text
-        Second row is divided in 2 columns,         |
- it includes a table example, and some text (h2,p)  | both rows have a responsive design
-        Third row one Unorderd list                 | for smaller screens
+3 rows: First row some text
+        Second row is divided in 2 columns,it includes a table example, and some text (h2,p)   
+        Third row one Unorderd list 
+
 
 projects.html
-First row includes a gallery grid (4 colums), with some styling,
-  hover effects and buttons
+
+First row includes a gallery grid (4 colums), with some styling, hover effects and buttons
 Second row an unorderd list
 
-about.html        |                  
-                  | All this pages follow the same layout as the index.html
-contact.html      |
+about.html                          
                   
+contact.html      
+ 
+                 
 main.js
 
 functions for a sticky navbar
