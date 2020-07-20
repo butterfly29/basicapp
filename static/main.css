@@ -1,93 +1,94 @@
 body {
-    background-image: url("image4.jpeg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  background-image: url("image4.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-h1, p {
-    color: gray;
+h1,
+p {
+  color: gray;
 }
 
 #content {
-    max-width: 80%;
-    margin: auto;
+  max-width: 80%;
+  margin: auto;
 }
 
 .navbar {
-    overflow: hidden;
-    background-color: rgba(60, 80, 93, 0.2);
+  overflow: hidden;
+  background-color: rgba(60, 80, 93, 0.2);
 }
 
-    .navbar a {
-        float: left;
-        display: block;
-        color: gray;
-        text-align: center;
-        padding: 10px 20px;
-        text-decoration: none;
-    }
+.navbar a {
+  float: left;
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
 
-    .navbar a:hover {
-        background-color: rgb(60, 80, 93);
-        color: white;
-    }
+.navbar a:hover {
+  background-color: rgb(60, 80, 93);
+  color: white;
+}
 
 .sticky {
-    position: fixed;
-    top: 0;
+  position: fixed;
+  top: 0;
 }
 
-    .sticky + .content {
-        padding-top: 60px;
-    }
+.sticky + .content {
+  padding-top: 60px;
+}
 
 .navbar-xs a {
-    color: white;
-    text-align: center;
-    text-decoration: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
 }
 .table-responsive {
-    padding-top:20px;
+  padding-top: 20px;
 }
 
 .row {
-    background-color: white;
-    padding: 30px 20px 30px 20px;
-    margin-top: 10px;
+  background-color: white;
+  padding: 30px;
+  margin-top: 10px;
 }
 
 .row2 {
-    background-color: rgb(60, 80, 93);
-    margin: 10px 0px 0px 0px;
-    padding: 30px 20px 30px 20px;
+  background-color: rgb(60, 80, 93);
+  margin: 10px -15px 0px -15px;
+  padding: 30px;
 }
 .project {
-    opacity: 1;
-    display: block;
-    transition: .5s ease;
-    backface-visibility: hidden;
-    padding: 10px 0px 10px 0px;
+  opacity: 1;
+  display: block;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  padding: 10px 0px 10px 0px;
 }
 .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 .thumbnail:hover .project {
-    opacity: 0.3;
+  opacity: 0.3;
 }
 .thumbnail:hover .middle {
-    opacity: 1;
+  opacity: 1;
 }
 .text {
-    background-color: rgb(60, 80, 93);
-    color: white;
-    font-size: 16px;
-    padding: 10px 15px;
+  background-color: rgb(60, 80, 93);
+  color: white;
+  font-size: 16px;
+  padding: 10px 15px;
 }
